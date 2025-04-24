@@ -1,5 +1,5 @@
-#ifndef ML_LIB_H
-#define ML_LIB_H
+#ifndef USEFUL_FUNCS_H
+#define USEFUL_FUNCS_H
 
 #include "matrixops.h"  
 

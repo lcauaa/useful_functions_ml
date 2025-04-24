@@ -38,7 +38,7 @@ add_library(usefulfuncs_shared SHARED ${SRC_FILES})
 set_target_properties(usefulfuncs_shared PROPERTIES VERSION ${PROJECT_VERSION})
 
 # Link OpenMP to your library and executable
-target_link_libraries(usefulfuncs OpenMP::OpenMP_C)
+target_link_libraries(usefulfuncs OpenMP::OpenMP_C pthread)
 
 # If you want to create an executable for testing
 add_executable(test_matrixops tests/test_matrixops.c)
